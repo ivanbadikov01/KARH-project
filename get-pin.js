@@ -1,4 +1,8 @@
 $(document).ready(function () {
-	var pin = $("input[name='pin']").val();
-	console.log(typeof pin);
+	$("#submit").click(function () {
+		preventFormSubmit();
+
+		var pin = $("input[name='pin']").val();
+		console.log(typeof pin);
+	});
 });
