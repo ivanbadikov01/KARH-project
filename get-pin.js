@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	console.log("kurwi sbogom");
 	$("#submit").click(function () {
 		preventFormSubmit();
 
