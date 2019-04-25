@@ -4,8 +4,9 @@ $(document).ready(function() {
         var url = window.location.href.split("/")[1];
         var pin = $("input[name=pin]").val();
         var state = $("input[name=state").val();
-
+        var res = url + ' ' + pin + ' ' state;
         //window.location.replace(url + pin + state);
-        $("body").append(url + ' ' + pin + ' ' state);
+
+        $("body").append(res);
     });
 });
