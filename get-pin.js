@@ -1,7 +1,7 @@
 $(document).ready(function() {
     console.log("kurwi sbogom");
     $("#submit").click(function() {
-        var url = window.location.href.split("/")[2];
+        var url = window.location.href.split("/")[3];
  		console.log(url);
         var pin = $("input[name=pin]").val();
         console.log(url + pin);
