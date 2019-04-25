@@ -6,6 +6,6 @@ $(document).ready(function() {
         var state = $("input[name=state").val();
 
         //window.location.replace(url + pin + state);
-        $("body").append(url + ' ' pin + ' ' state);
+        $("body").append(url + ' ' + pin + ' ' state);
     });
 });
