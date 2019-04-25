@@ -7,5 +7,5 @@ $(document).ready(function() {
         pin = parseInt(pin, 10);
         console.log(typeof pin);
         $.post("\\pin?=")
-    })
+    });
 });
