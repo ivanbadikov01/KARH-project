@@ -3,6 +3,6 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var url = window.location.href;
         var pin = $("input[name=pin]").val();
-        window.location.replace(url + "/" + pin);
+        window.location.replace(url + pin);
     });
 });
