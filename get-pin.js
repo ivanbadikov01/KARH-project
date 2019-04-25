@@ -7,6 +7,6 @@ $(document).ready(function() {
         //var res = url + " " + pin + " " state;
         window.location.replace(url + pin + "/" + state);
 
-        $("body").append(res);
+        //$("body").append(res);
     });
 });
