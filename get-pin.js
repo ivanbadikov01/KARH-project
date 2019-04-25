@@ -6,5 +6,6 @@ $(document).ready(function() {
         console.log(typeof pin);
         pin = parseInt(pin, 10);
         console.log(typeof pin);
+        $.post("\\pin?=")
     })
 });
