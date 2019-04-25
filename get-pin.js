@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    console.log("kurwi sbogom");
+    console.log(window.location.href.split("/")[1]);
     $("#submit").click(function() {
         var url = window.location.href.split("/")[1];
         var pin = $("input[name=pin]").val();
